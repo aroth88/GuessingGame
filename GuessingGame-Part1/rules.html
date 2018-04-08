@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Guessing Game</title>
+
+            <link rel='stylesheet' type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+        </head>
+        <body>
+            <h1 id='rules-title' class='center'>Guessing Game!</h1>
+            <p class='center'><a href='index.html' id='back-to-game'>Back to the game</a></p>
+            <p id='rules' class='center'>
+                <strong>Rules:</strong> There is one winning number between 1-100, you
+                get five attempts to guess the number. After every guess you will be
+                given an indication of how close you are to the correct number, hot or
+                cold, and whether to guess higher or lower. If you would like a more
+                accurate hint, you can press the hint button, this will give you three
+                numbers, one of which is the winning number. You may only have one hint
+                per game. If you would like to play again or start with a fresh game
+                press the reset button.
+                
+            </p>
+
+
+            <div id='footer' class='center'>
+                <div class='row'>
+                    <div class='col-sm-4'>
+                        <img src='fa-logo@2x.png'></img>
+                    </div>
+                   
+                    <div class='col-sm-4'>
+                        <h4>Project by Allen Roth</h4>
+                    </div>
+                   
+                    <div class='col-sm-4'>
+                        <img src='grace_hopper_academy.png'></img>
+                    </div>
+                   
+                   
+                </div>
+            </div>
+            <script src='../jquery-3.3.1.min.js'></script>
+            <script src='../GuessingGame-Part2/GuessingGame.js'></script>
+
+
+        </body>
+
+
+    </html>
+
+    <!-- button colors, fix rules page (add title), show winning number (win or lose),
+    manually move selector back to guess, don't change box size for numbers -->
